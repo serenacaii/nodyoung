@@ -104,7 +104,6 @@ a:hover{
     margin-right: auto;
 }
 .main{
-    width:98vw;
 }
 
 .tltimeline{
@@ -194,6 +193,7 @@ a:hover{
     margin-top: -6px;
 }
 .workcontainer{
+    width:98vw;
     position:fixed;
     bottom:1em;
     margin-left: auto;
@@ -218,7 +218,7 @@ a:hover{
     width:10em;
 }
 .workimg{
-    width:120px;
+    width:110px;
 }
 .indivworkimg{
     width:400px;
