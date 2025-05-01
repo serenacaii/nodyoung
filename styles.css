@@ -104,6 +104,7 @@ a:hover{
     margin-right: auto;
 }
 .main{
+    overflow-x: true;
 }
 
 .tltimeline{
