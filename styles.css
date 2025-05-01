@@ -1,0 +1,247 @@
+
+@font-face {
+    font-family: helvetica-light;
+    src: url(helvetica-neue-light.ttf);
+  }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    padding:1em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.homeicon{
+    height: 20px;
+}
+
+.navicon{
+    height: 24px;
+}
+
+h4{
+    font-size:20px;
+
+}
+
+h5{
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size:16px;
+    
+}
+p{
+    font-family: helvetica-light;
+    font-weight: 100;
+
+}
+a{
+    text-decoration: none;
+    color:#717274;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#717274;
+    opacity:80%;
+
+}
+
+.tltext{
+    width:10em;
+}
+.tltextall{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    justify-content: top;
+}
+
+.indivtlcontainer{
+    width:16%;
+}
+.tlcontainer{
+    max-width: fit-content;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    height: 100%;
+    width:100%;
+}
+
+.tltimeline{
+    max-width: fit-content;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutcontainer{
+    width:40%;
+    max-width: fit-content;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction:row;
+    gap:1em;
+}
+
+.video{
+    width:40%;
+    max-width: fit-content;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction:row;
+    gap:1em;
+
+}
+.video{
+    width:500px;
+}
+.indivworkcontainer{
+    width:70%;
+    max-width: fit-content;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction:row;
+    gap:1em;
+
+}
+.aboutText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.imgabout{
+    width: 50%;
+}
+
+.gap2px{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+.about{
+    display: flex;
+
+}
+.timelinetext{
+    display:flex;
+    flex-direction: column;
+    gap:0.5em;
+}
+.learnmorebtn{
+    padding: 4px;
+    color:grey;
+}
+
+.greyline{
+    background-color: grey;
+    height:1px;
+    width:100vw;
+    margin: 0px;
+}
+.greycircle{
+    background-color: grey;
+    width:12px;
+    height:12px;
+    border-radius:12px;
+    margin-top: -6px;
+}
+.workcontainer{
+    position:fixed;
+    bottom:1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0em;
+}
+.ralignnav{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.workcolumn{
+    align-self: flex-end;
+
+}
+.workitem{
+    display: flex;
+    flex-direction: column;
+    width:10em;
+}
+.workimg{
+    width:120px;
+}
+.indivworkimg{
+    width:400px;
+}
+.collapse{
+    width:150px;
+}
+
+.homeicon{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:8px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+nav{
+    width: 100%;
+}
