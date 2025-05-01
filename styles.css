@@ -104,7 +104,8 @@ a:hover{
     margin-right: auto;
 }
 .main{
-    overflow-x: true;
+    overflow-x: scroll;
+    z-index: 10000;
 }
 
 .tltimeline{
@@ -203,7 +204,7 @@ a:hover{
     flex-direction: row;
     justify-content: flex-start;
     gap: 0em;
-    overflow-x: true;
+    overflow-x: scroll;
 }
 .ralignnav{
     display: flex;
@@ -245,4 +246,5 @@ ul{
 
 nav{
     width: 100%;
+    position: fixed;
 }
